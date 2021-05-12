@@ -46,7 +46,8 @@ Ex: (00 -> ERRADO | 001101-> ERRADO | 10110 -> ERRADO | 10101 -> ERRADO | 010101
 	```
 - Passo 4: Multiplicar o último valor por 16:
 	```
-	Ex: 0.3125 * 16 = 5 (neste caso o 5 representa na tabela o valor "5", mas se o valor fosse igual ou superior a 16, teria que ser feito a conta de novo)
+	Ex: 0.3125 * 16 = 5 
+	(neste caso o 5 representa na tabela o valor "5", mas se o valor fosse igual ou superior a 16, teria que ser feito a conta de novo)
 	```	
 - Passo 5: Dividir a parte antes do ponto decimal por 16 e guardar o número depois do ponto:
 	```	
