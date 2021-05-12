@@ -19,7 +19,7 @@ Este é bastante simples, simplesmente fazer uma tabela como o abaixo:
 1 | 1 | 1 | 0 	| 14
 1 | 1 | 1 | 1 	| 15
 ```
-OBS: A última coluna refere-se ao valor décimal dos números binários
+_OBS: A última coluna refere-se ao valor décimal dos números binários_
 	
 A primeira coluna terá que ter sempre 8 números iguais repetidos, ou seja 8 zeros ou 8 uns
 
