@@ -1,25 +1,25 @@
 # CONVERTER DECIMAL PARA BINÁRIO
 
-Este é bastante simples, simplesmente fazer uma tabela como o abaixo:
+Este é bastante simples, segue-se o exemplo de uma tabela como o abaixo:
 ```
-0 | 0 | 0 | 0 	| 0
-0 | 0 | 0 | 1 	| 1
-0 | 0 | 1 | 0 	| 2
-0 | 0 | 1 | 1 	| 3
-0 | 1 | 0 | 0 	| 4
-0 | 1 | 0 | 1 	| 5
-0 | 1 | 1 | 0 	| 6
-0 | 1 | 1 | 1 	| 7
-1 | 0 | 0 | 0	| 8
-1 | 0 | 0 | 1	| 9
-1 | 0 | 1 | 0 	| 10
-1 | 0 | 1 | 1 	| 11
-1 | 1 | 0 | 0 	| 12
-1 | 1 | 0 | 1 	| 13
-1 | 1 | 1 | 0 	| 14
-1 | 1 | 1 | 1 	| 15
+0 | 0 | 0 | 0 	-> 0
+0 | 0 | 0 | 1 	-> 1
+0 | 0 | 1 | 0 	-> 2
+0 | 0 | 1 | 1 	-> 3
+0 | 1 | 0 | 0 	-> 4
+0 | 1 | 0 | 1 	-> 5
+0 | 1 | 1 | 0 	-> 6
+0 | 1 | 1 | 1 	-> 7
+1 | 0 | 0 | 0	-> 8
+1 | 0 | 0 | 1	-> 9
+1 | 0 | 1 | 0 	-> 10
+1 | 0 | 1 | 1 	-> 11
+1 | 1 | 0 | 0 	-> 12
+1 | 1 | 0 | 1 	-> 13
+1 | 1 | 1 | 0 	-> 14
+1 | 1 | 1 | 1 	-> 15
 ```
-_OBS: A última coluna refere-se ao valor décimal dos números binários_
+_OBS: Os últimos números refere-se ao valor décimal dos números binários_
 
 A primeira coluna terá que ter sempre 8 números iguais repetidos, ou seja 8 zeros ou 8 uns\
 A segunda coluna terá sempre 4 números iguais, 4 zeros ou 4 uns\
