@@ -20,13 +20,13 @@ Este é bastante simples, simplesmente fazer uma tabela como o abaixo:
 1 | 1 | 1 | 1 	| 15
 ```
 _OBS: A última coluna refere-se ao valor décimal dos números binários_
+
+
+
 	
 A primeira coluna terá que ter sempre 8 números iguais repetidos, ou seja 8 zeros ou 8 uns
-
 A segunda coluna terá sempre 4 números iguais, 4 zeros ou 4 uns
-
 A terceira coluna terá sempre 2 números iguais, 2 zeros ou 2 uns
-
 A quarta coluna será sempre alteranadamente, nunca podendo existir 2 números iguais, começando sempre pelo 0
 ```
 Ex: (00 -> ERRADO | 001101-> ERRADO | 10110 -> ERRADO | 10101 -> ERRADO | 01010101 -> CORRETO)
