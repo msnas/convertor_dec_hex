@@ -47,13 +47,12 @@ Ex: (00 -> ERRADO | 001101-> ERRADO | 10110 -> ERRADO | 10101 -> ERRADO | 010101
 		Ex: 31/16 = 1.9375 (neste caso: 0.9375)
 
 - Passo 6: Repetir o processo todo até que o número decimal seja inferior a 16:
-Ex: (Repetir o passo 4 uma vez que já temos o número guardado - 0.9375 -)
-			0.9375 * 16 = 15 (15 representa a letra "F" na tabela)
-			
-			(O 1 representa o número antes do ponto décimal do exemplo do Passo 5)
-			1 / 16 = 0.0625
-			
-			0.0625 * 16 = 1 (este número representa o "1" na tabela)
+	Ex: 
+		(Repetir o passo 4 uma vez que já temos o número guardado - 0.9375 -)
+		0.9375 * 16 = 15 (15 representa a letra "F" na tabela)
+		(O 1 representa o número antes do ponto décimal do exemplo do Passo 5)
+		1 / 16 = 0.0625
+		0.0625 * 16 = 1 (este número representa o "1" na tabela)
 			
 Resultado final: 1F5 (16)
 
