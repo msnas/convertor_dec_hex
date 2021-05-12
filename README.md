@@ -32,6 +32,19 @@ Ex: (00 -> ERRADO | 001101-> ERRADO | 10110 -> ERRADO | 10101 -> ERRADO | 010101
 
 # CONVERTER DECIMAL PARA HEXADECIMAL
 
+Veja-se a seguinte tabela:
+```python
+hex_table = { 
+	0: "0",	8: "8",
+	1: "1",	9: "9",
+	2: "2",	10: "A",
+	3: "3",	11: "B",
+	4: "4",	12: "C",
+	5: "5",	13: "D",
+	6: "6",	14: "E",
+	7: "7",	15: "F",
+}
+```
 - Passo 1: Se o número for inferior a 16, o seu valor é igual ao que está inserido na tabela (ex: 1 equivale a 1, 10 equivale ao A)
 
 - Passo 2: Se o número for superior a 16, é dividido por 16:
