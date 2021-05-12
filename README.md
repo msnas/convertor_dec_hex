@@ -47,6 +47,7 @@ Ex: (00 -> ERRADO | 001101-> ERRADO | 10110 -> ERRADO | 10101 -> ERRADO | 010101
 		Ex: 31/16 = 1.9375 (neste caso: 0.9375)
 
 - Passo 6: Repetir o processo todo até que o número decimal seja inferior a 16:
+
 	Ex: 
 		(Repetir o passo 4 uma vez que já temos o número guardado - 0.9375 -)
 		0.9375 * 16 = 15 (15 representa a letra "F" na tabela)
